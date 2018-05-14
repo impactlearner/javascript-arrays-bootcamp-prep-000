@@ -1,8 +1,8 @@
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
 var addElementToBeginningOfArray = ['sun', 'moon', 'stars'];
-['comet'], ...addElementToBeginningOfArray]
+['comet'], ...addElementToBeginningOfArray];
 
 
 var destructivelyAddElementToBeginningOfArray = ['dog', 'cat', 'pig'];
-destructivelyAddElementToBeginningOfArray.unshift('rat')
+destructivelyAddElementToBeginningOfArray.unshift('rat');
