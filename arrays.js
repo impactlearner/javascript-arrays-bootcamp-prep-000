@@ -6,4 +6,3 @@ var addElementToBeginningOfArray = ['sun', 'moon', 'stars'];
 
 var destructivelyAddElementToBeginningOfArray = ['dog', 'cat', 'pig'];
 destructivelyAddElementToBeginningOfArray.unshift('rat')
-
