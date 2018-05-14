@@ -1,8 +1,11 @@
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
-console.log(chocolateBars);
 
-var addElementToBeginningOfArray = ['sun', 'moon', 'stars'];
-['comet'], ...addElementToBeginningOfArray];
+function addElementToBeginningOfArray (array, element){
+  var new_array = [element, array[0]]
+  return new_array
+}
 
-var destructivelyAddElementToBeginningOfArray = ['dog', 'cat', 'pig'];
-destructivelyAddElementToBeginningOfArray.unshift('rat');
+function destructivelyAddElementToBeginningOfArray (array, element){
+  array.unshift(element)
+  return array
+}
